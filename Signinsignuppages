@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GridWork</title>
+       <link rel="stylesheet" href="SignIn.css">
+       <style>
+        h3 {
+            color: rebeccapurple;
+        }
+       </style>
+    </head>
+    <body>
+        <h1>Sign In</h1>
+    <body>
+        <form autocomplete="on">
+            <label>
+                Email
+            </label><br>
+            <input type="text"><br> 
+            <label>Password</label><br> 
+            <input text="Password"><br>
+            <button type="Login">Login</button><br> 
+        </form>
+        <br><br><br>
+        <form>
+            <h3>
+                sign UP
+            </h3>
+            <label for="html">Name</label><br>
+            <input type="text" ><br>
+            <label>FName</label><br>
+            <input type="text"><br>
+            <label>Email</label><br>
+            <input type="email"><br>
+            <label>Contact</label><br>
+            <input type="number"><br>
+            <label>Password</label><br>
+            <input type="password"><br><br>
+            <select id="cars" name="cars"><br>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <label>Message</label><br>
+            <textarea  name="Message" style="height: 100px; width: 40%;" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button type="" onclick="alert('That is Save Button!')">Save</button><br>
+            
+        </form>
+    </body>
+    </body>
+</html>body {
+    background-color:lavender;
+}
+form {
+    align-items:center;
+    width: 50%;
+    background-color: mintcream;
+    align-self: centers;
+}
